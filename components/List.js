@@ -113,7 +113,7 @@ export default function List({ navigation }) {
   const SubmitHandler = (item) => {
     if (selectedOption) {
       const newItem = {
-        src: item.src,
+        src: selectedOption.src,
         name: selectedOption.name,
         id: item.id,
         price: selectedOption.price,
